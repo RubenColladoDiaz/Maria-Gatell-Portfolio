@@ -59,6 +59,15 @@
   .mt-18 {
     margin-top: 4.5rem;
   }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .pistachio-field {
